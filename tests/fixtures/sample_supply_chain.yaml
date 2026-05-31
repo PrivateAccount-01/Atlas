@@ -1,0 +1,7 @@
+name: sample_supply_chain_fixture
+version: test-1
+entities:
+  - supplier: { id: sample-supplier-1 }
+  - shipment: { id: sample-shipment-1 }
+signals:
+  - on_time_rate: { value: 0.98 }

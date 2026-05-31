@@ -1,0 +1,11 @@
+name: supply_chain
+version: 1
+description: Minimal schema for supply chain entities, events, and signals.
+contains_data: false
+entities:
+  - name: supplier
+  - name: shipment
+events:
+  - name: delivery_delay
+signals:
+  - name: on_time_rate
