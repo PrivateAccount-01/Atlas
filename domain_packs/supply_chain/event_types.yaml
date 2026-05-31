@@ -1,0 +1,6 @@
+event_types:
+  - name: delivery_delay
+    description: Event indicating a delayed delivery
+    participants:
+      - supplier
+      - shipment

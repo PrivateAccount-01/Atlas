@@ -1,0 +1,4 @@
+prediction_targets:
+  - name: delivery_delay_probability
+    description: Probability of delivery delay
+    related_event: delivery_delay

@@ -1,0 +1,6 @@
+signals:
+  - name: on_time_rate
+    description: Rate of on-time deliveries
+    metric_type: percentage
+    min: 0
+    max: 100

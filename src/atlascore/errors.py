@@ -55,3 +55,83 @@ class OutOfScopeError(AtlasCoreError):
 
 class MissingDataError(AtlasCoreError):
     code = "atlascore.missing_data"
+
+
+class DataSourceUnavailableError(AtlasCoreError):
+    code = "atlascore.data_source_unavailable"
+
+
+class RateLimitExceededError(AtlasCoreError):
+    code = "atlascore.rate_limit_exceeded"
+
+
+class InvalidRawDocumentError(ValidationError):
+    code = "atlascore.invalid_raw_document"
+
+
+class DuplicateDocumentError(ValidationError):
+    code = "atlascore.duplicate_document"
+
+
+class CleaningFailedError(ValidationError):
+    code = "atlascore.cleaning_failed"
+
+
+class EntityResolutionFailedError(ValidationError):
+    code = "atlascore.entity_resolution_failed"
+
+
+class UnknownEntityTypeError(ValidationError):
+    code = "atlascore.unknown_entity_type"
+
+
+class UnknownEventTypeError(ValidationError):
+    code = "atlascore.unknown_event_type"
+
+
+class OntologyValidationFailedError(ValidationError):
+    code = "atlascore.ontology_validation_failed"
+
+
+class InsufficientEvidenceError(ValidationError):
+    code = "atlascore.insufficient_evidence"
+
+
+class GraphEdgeRejectedError(ValidationError):
+    code = "atlascore.graph_edge_rejected"
+
+
+class SignalValidationFailedError(ValidationError):
+    code = "atlascore.signal_validation_failed"
+
+
+class PredictionValidationFailedError(ValidationError):
+    code = "atlascore.prediction_validation_failed"
+
+
+class ModelNotAvailableError(AtlasCoreError):
+    code = "atlascore.model_not_available"
+
+
+class FeedbackWindowNotCompletedError(AtlasCoreError):
+    code = "atlascore.feedback_window_not_completed"
+
+
+class MockDataForbiddenError(AtlasCoreError):
+    code = "atlascore.mock_data_forbidden"
+
+
+class ProvenanceChainBrokenError(ValidationError):
+    code = "atlascore.provenance_chain_broken"
+
+
+class InvalidScoreError(ValidationError):
+    code = "atlascore.invalid_score"
+
+
+class InvalidConfidenceError(ValidationError):
+    code = "atlascore.invalid_confidence"
+
+
+class DomainPackInvalidError(SchemaViolationError):
+    code = "atlascore.domain_pack_invalid"

@@ -1,0 +1,5 @@
+entity_types:
+  - name: supplier
+    description: A supplier in the supply chain
+  - name: shipment
+    description: A shipment of goods

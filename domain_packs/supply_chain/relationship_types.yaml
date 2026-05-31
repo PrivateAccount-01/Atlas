@@ -1,0 +1,5 @@
+relationship_types:
+  - name: supplies
+    description: Supplier supplies shipment
+    from_entity: supplier
+    to_entity: shipment
